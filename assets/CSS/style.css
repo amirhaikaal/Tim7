@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+#nav{
+    Position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+.navbar{
+    background-image: linear-gradient(to right, #e9390d,#FF2A00);
+}
+
+.navbar-brand span{
+    font-weight: bolder;
+    color:#FF2A00
+}
+.navbar-nav ul li{
+    padding: 0 10px;
+
+}
+.navbar-nav li a{
+   color: #bad !important;
+   font-weight: bold;
+   text-transform: uppercase;
+   
+}
+
+/* banner */
+#banner{
+    Position: relative;
+    background-image: linear-gradient(to right, #ffffff,#ffb6a7);
+    color:rgb(19, 1, 1);
+    padding-top: 0;
+}
+
+.title{
+    font-weight: bolder;
+    margin-top: 80px;
+}
+
+.ban-img{
+    position: relative;
+    z-index: 1000;
+}
+
+
+/* 
+
+.navbar {
+	background: rgb(247, 76, 76);
+	background: radial-gradient(
+		circle,
+		rgba(247, 76, 76, 1) 0%,
+		rgba(254, 47, 47, 1) 50%,
+		rgba(255, 0, 0, 1) 100%
+	);
+
+	font-weight: 500;
+}
+
+.nav-item {
+	color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.nav-item.active {
+	color: rgba(255, 255, 255, 1) !important;
+}
+
+.nav-link {
+	transition: all 0.3s;
+}
+
+.nav-link:hover {
+	color: rgba(255, 255, 255, 1) !important;
+} */

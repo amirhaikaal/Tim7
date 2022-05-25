@@ -16,7 +16,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     <?php } ?>
-                    <form action="<?= base_url() . 'auth' ?>" class="mb-3" method="post">
+                    <form action="<?= base_url() . 'myindihome' ?>" class="mb-3" method="post">
                         <div class="mb-3">
                             <label class="col-sm-2 col-form-label d-none" for="email">Email :</label>
                             <input type="email" name="email" value="<?= set_value('email') ?>" id="email" class="form-control" placeholder="Masukan Email..">
@@ -34,7 +34,7 @@
                         </div>
                     </form>
 
-                    <a href="<?= base_url() . 'auth/register' ?>" class="text-center">No have account? Register.</a>
+                    <a href="<?= base_url() . 'myindihome/register' ?>" class="text-center">No have account? Register.</a>
                 </div>
             </div>
         </div>

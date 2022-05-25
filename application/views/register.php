@@ -36,7 +36,7 @@
                         </div>
                     </form>
 
-                    <a href="<?= base_url() . 'auth' ?>" class="text-center">Have account? Login.</a>
+                    <a href="<?= base_url() . 'myindihome' ?>" class="text-center">Have account? Login.</a>
                 </div>
             </div>
         </div>
